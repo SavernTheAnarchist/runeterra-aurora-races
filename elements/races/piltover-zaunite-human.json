@@ -1,0 +1,29 @@
+{
+  "id": "piltover-zaunite-human",
+  "name": "Piltover & Zaun Human",
+  "type": "race",
+  "source": "Runeterra Homebrew",
+  "ability": {
+    "int": 1
+  },
+  "size": "Medium",
+  "speed": 30,
+  "languages": [
+    "Va-Nox",
+    "Piltovan"
+  ],
+  "entries": [
+    {
+      "name": "Tinkerer's Edge",
+      "entries": [
+        "You gain proficiency with one artisan's tool of your choice (tinker's tools recommended)."
+      ]
+    },
+    {
+      "name": "Inventive Mind",
+      "entries": [
+        "You have advantage on Intelligence (Investigation) checks related to mechanical devices and on checks to jury-rig simple contraptions."
+      ]
+    }
+  ]
+}

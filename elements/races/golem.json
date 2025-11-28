@@ -1,0 +1,106 @@
+{
+  "id": "golem",
+  "name": "Golem",
+  "type": "race",
+  "source": "Runeterra Homebrew",
+  "ability": {
+    "str": 2
+  },
+  "size": "Medium",
+  "speed": 30,
+  "languages": [
+    "Va-Nox"
+  ],
+  "entries": [
+    {
+      "name": "Age",
+      "entries": [
+        "Golems are constructed and do not age as mortals do."
+      ]
+    },
+    {
+      "name": "Alignment",
+      "entries": [
+        "Often lawful."
+      ]
+    },
+    {
+      "name": "Subrace Choice",
+      "entries": [
+        "Choose Inorganic Golem or Organic Golem."
+      ]
+    }
+  ],
+  "subraces": [
+    {
+      "id": "golem-inorganic",
+      "name": "Inorganic Golem",
+      "type": "subrace",
+      "race": "golem",
+      "ability": {
+        "int": 1
+      },
+      "entries": [
+        {
+          "name": "Extra Language",
+          "entries": [
+            "You can speak, read, and write one extra language of your choice."
+          ]
+        },
+        {
+          "name": "Knowledge Programmed",
+          "entries": [
+            "You are proficient in any combination of three skills or tools of your choice."
+          ]
+        },
+        {
+          "name": "Machine's Mastery",
+          "entries": [
+            "Choose one trait such as climb speed, darkvision 60 ft, burrow, swim speed, or increased walking speed as designed with your DM."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "golem-organic",
+      "name": "Organic Golem",
+      "type": "subrace",
+      "race": "golem",
+      "ability": {
+        "con": 1
+      },
+      "entries": [
+        {
+          "name": "Golem's Muscle",
+          "entries": [
+            "You count as one size larger when determining carrying capacity and the weight you can push, drag, or lift."
+          ]
+        },
+        {
+          "name": "Nature's Knowledge",
+          "entries": [
+            "You are proficient in the Nature skill."
+          ]
+        },
+        {
+          "name": "Natural Weapon",
+          "entries": [
+            "Your unarmed strikes deal 1d6 + your Strength modifier. You are proficient with these unarmed strikes."
+          ]
+        },
+        {
+          "name": "Living Construct",
+          "entries": [
+            "You are immune to disease, do not need to eat, drink, or breathe, and instead of sleeping you enter an inactive state for 4 hours per day during which you are aware of your surroundings."
+          ]
+        },
+        {
+          "name": "Natural Armor",
+          "entries": [
+            "When unarmored, your AC equals 10 + your Dexterity modifier + 1."
+          ]
+        }
+      ]
+    }
+  ]
+}

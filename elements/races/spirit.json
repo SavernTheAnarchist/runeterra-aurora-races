@@ -1,0 +1,60 @@
+{
+  "id": "spirit",
+  "name": "Spirit",
+  "type": "race",
+  "source": "Runeterra Homebrew",
+  "ability": {
+    "cha": 2
+  },
+  "size": "Medium",
+  "speed": 30,
+  "languages": [
+    "Va-Nox",
+    "Sylvan"
+  ],
+  "entries": [
+    {
+      "name": "Living Spirit",
+      "entries": [
+        "You are immune to disease, do not need to eat or drink, and instead of sleeping you enter an inactive state for 4 hours per day during which you are aware of your surroundings."
+      ]
+    },
+    {
+      "name": "Mystical Awareness",
+      "entries": [
+        "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+      ]
+    },
+    {
+      "name": "Spirit Realm's Refuge",
+      "entries": [
+        "As an action, you can teleport into a small pocket of the Spirit Realm for up to 1 hour; once used, requires three long rests to use again."
+      ]
+    }
+  ],
+  "subraces": [
+    {
+      "id": "spirit-demon",
+      "name": "Demon",
+      "type": "subrace",
+      "race": "spirit",
+      "ability": {
+        "wis": 1
+      },
+      "entries": [
+        {
+          "name": "Malevolent Influence",
+          "entries": [
+            "You have advantage on Intimidation checks and can cast one fear-related spell once per long rest; specific spell decided with DM."
+          ]
+        },
+        {
+          "name": "Hunger of the Abyss",
+          "entries": [
+            "Once per long rest, when you witness a frightened creature die, you may regain hit points equal to 1d6 + your Charisma modifier."
+          ]
+        }
+      ]
+    }
+  ]
+}

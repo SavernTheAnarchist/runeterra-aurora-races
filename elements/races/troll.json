@@ -1,0 +1,94 @@
+{
+  "id": "troll",
+  "name": "Troll",
+  "type": "race",
+  "source": "Runeterra Homebrew",
+  "ability": {
+    "con": 2
+  },
+  "size": "Medium",
+  "speed": 30,
+  "languages": [
+    "Va-Nox"
+  ],
+  "entries": [
+    {
+      "name": "Darkvision",
+      "entries": [
+        "You can see in dim light within 60 feet as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+      ]
+    },
+    {
+      "name": "Keen Smell",
+      "entries": [
+        "You have advantage on Wisdom (Perception) checks that rely on smell."
+      ]
+    },
+    {
+      "name": "Savage Attacks",
+      "entries": [
+        "When you score a critical hit with a melee weapon attack, roll one of the weapon's damage dice one additional time and add it."
+      ]
+    },
+    {
+      "name": "Troll Toughness",
+      "entries": [
+        "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+      ]
+    },
+    {
+      "name": "Quick Healing",
+      "entries": [
+        "As a reaction when you take damage, you can roll 1d6 + your Constitution modifier and regain that many hit points. Usable once per long rest."
+      ]
+    }
+  ],
+  "subraces": [
+    {
+      "id": "troll-frost",
+      "name": "Frost-Troll",
+      "type": "subrace",
+      "race": "troll",
+      "ability": {
+        "str": 1
+      },
+      "entries": [
+        {
+          "name": "Arctic Terrain Familiarity",
+          "entries": [
+            "You have advantage on Wisdom (Survival) checks in arctic or snowy terrain and are not hindered by difficult terrain there."
+          ]
+        },
+        {
+          "name": "Weapon Training",
+          "entries": [
+            "You are proficient with mauls, war picks, and warhammers."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troll-sand",
+      "name": "Sand-Troll",
+      "type": "subrace",
+      "race": "troll",
+      "ability": {
+        "dex": 1
+      },
+      "entries": [
+        {
+          "name": "Desert Terrain Familiarity",
+          "entries": [
+            "You have advantage on Wisdom (Survival) checks in desert terrain and are not hindered by difficult terrain there."
+          ]
+        },
+        {
+          "name": "Weapon Training",
+          "entries": [
+            "You are proficient with greataxes, morningstars, and scimitars."
+          ]
+        }
+      ]
+    }
+  ]
+}

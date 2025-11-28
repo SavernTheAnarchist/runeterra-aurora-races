@@ -1,0 +1,54 @@
+{
+  "id": "celestial",
+  "name": "Celestial",
+  "type": "race",
+  "source": "Runeterra Homebrew",
+  "ability": {
+    "wis": 2,
+    "cha": 1
+  },
+  "size": "Medium",
+  "speed": 30,
+  "languages": [
+    "Va-Nox",
+    "Celestial"
+  ],
+  "entries": [
+    {
+      "name": "Age",
+      "entries": [
+        "Celestials are effectively ageless while manifest."
+      ]
+    },
+    {
+      "name": "Alignment",
+      "entries": [
+        "Tend toward lawful and/or good."
+      ]
+    },
+    {
+      "name": "Celestial Knowledge",
+      "entries": [
+        "You have proficiency in the History and Religion skills."
+      ]
+    },
+    {
+      "name": "Radiant-Born",
+      "entries": [
+        "You are immune to radiant damage."
+      ]
+    },
+    {
+      "name": "Sacrificial Healing",
+      "entries": [
+        "As a bonus action you may lose hit points to heal a willing creature you can see: roll 1d4 + your Wisdom modifier; you lose that many hit points and the ally regains that many. Usable once per short or long rest. Die scales at levels 5 / 10 / 15 per DM."
+      ]
+    },
+    {
+      "name": "Sacrificial Shielding",
+      "entries": [
+        "When a creature you can see within 30 feet takes damage, you may use your reaction to take half that damage instead. Usable once per short or long rest."
+      ]
+    }
+  ]
+}
