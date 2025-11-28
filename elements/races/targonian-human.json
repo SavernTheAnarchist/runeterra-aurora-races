@@ -1,0 +1,29 @@
+{
+  "id": "targonian-human",
+  "name": "Targonian Human",
+  "type": "race",
+  "source": "Runeterra Homebrew",
+  "ability": {
+    "con": 1
+  },
+  "size": "Medium",
+  "speed": 30,
+  "languages": [
+    "Va-Nox",
+    "Targonian"
+  ],
+  "entries": [
+    {
+      "name": "Celestial Faith",
+      "entries": [
+        "Choose Solari or Lunari. You gain a minor trait from that faith (such as a one-use resistance or small benefit); exact mechanics defined with DM."
+      ]
+    },
+    {
+      "name": "Mountainous Terrain Familiarity",
+      "entries": [
+        "You have advantage on Wisdom (Survival) checks in mountainous terrain and are not hindered by difficult terrain there."
+      ]
+    }
+  ]
+}
